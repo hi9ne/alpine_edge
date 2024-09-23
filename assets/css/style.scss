@@ -421,3 +421,118 @@ body{
         }
     }
 }
+
+.reviews{
+    margin-top: 180px;
+    @media (max-width:408px) {   
+            margin-top: 80px;
+    }
+    h6{
+        font-size: 14px;
+        line-height: 20px;
+        color: #E6B939;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    h5{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    &_text{
+        width: 530px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        @media (max-width:408px) {   
+            width: 360px;
+        }
+    }
+    &_wrap{
+        display: flex;
+        gap: 32px;
+        @media (max-width:408px) {   
+            display: block;
+        }
+    }
+    &_block{
+        margin-bottom: 30px;
+        @media (max-width:408px) {   
+            img{
+                max-width: 350px;
+            }
+        }
+        &_text{
+            margin-bottom: 20px;
+            margin-top: 18px;
+            font-size: 20px;
+            line-height: 24px;
+            &-1{
+                color: #E6B939;
+            }
+            @media (max-width:408px) {   
+                font-size: 15px;
+                line-height: 13px;
+            }
+        }
+        &_box{
+            justify-content: space-between;
+            display: flex;
+            &_1{
+                display: flex;
+                &_0{
+                    margin-left: 12px; 
+                }           
+            }
+        }
+    }
+    &_link{
+        text-align: center;
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            color: #575445;
+        }
+    }
+    &_logo{
+        text-align: center;
+        margin-top: 62px;
+        margin-bottom: 28px;
+    }
+}
+
+.footer{
+    @media (max-width:408px) {   
+padding-top: 100px;
+    }
+    padding-top: 220px;
+    padding-bottom: 100px;
+    li{
+        list-style: none;
+        margin-bottom: 9px;
+    }
+    .footer_block_text{
+        margin-bottom: 9px;
+        color: #E6B939;
+        font-size: 18px;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+    &_block{
+        margin-bottom: 50px;
+    }
+    background: #575445;
+    color:white ;
+    &_wrap{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:408px) {   
+            display: block;
+        }
+    }
+    &_text{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
