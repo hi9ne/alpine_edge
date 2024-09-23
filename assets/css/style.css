@@ -31,9 +31,6 @@
 body {
   color: #575445;
 }
-body.lock {
-  overflow: hidden;
-}
 
 .menu_icon {
   margin-top: 20px;
@@ -390,4 +387,78 @@ body.lock {
 }
 .katalog_link {
   text-align: center;
+}
+
+.newsletter {
+  background-color: #375C58;
+  background-image: url(../img/shapes.png);
+}
+.newsletter_title {
+  color: #E6B939;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 70px;
+  margin-bottom: 8px;
+}
+@media (max-width: 408px) {
+  .newsletter_title {
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 50px;
+  }
+}
+.newsletter_text {
+  color: #FAFAFC;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  display: inline-flex;
+  width: 538px;
+}
+@media (max-width: 408px) {
+  .newsletter_text {
+    font-size: 10px;
+    line-height: 20px;
+    width: 338px;
+  }
+}
+.newsletter_block {
+  text-align: center;
+}
+.newsletter_btn {
+  text-align: center;
+  margin-top: 55px;
+  padding-bottom: 100px;
+}
+@media (max-width: 408px) {
+  .newsletter_btn {
+    padding-bottom: 50px;
+    margin-top: 30px;
+  }
+}
+.newsletter_button {
+  color: #fff;
+  background: #575445;
+  border: none;
+  padding: 8px 15px 11px 15px;
+  border-radius: 10px;
+  margin-left: -120px;
+}
+@media (max-width: 408px) {
+  .newsletter_button {
+    padding: 5px 12px 8px 12px;
+    font-size: 10px;
+    margin-left: -100px;
+  }
+}
+.newsletter_input {
+  padding: 17px 342px 19px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #E5E7EB;
+}
+@media (max-width: 408px) {
+  .newsletter_input {
+    padding: 10px 142px 12px 11px;
+  }
 }/*# sourceMappingURL=style.css.map */
