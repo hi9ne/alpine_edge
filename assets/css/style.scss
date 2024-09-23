@@ -13,6 +13,10 @@
         margin-left: 5%;
         width: 90%;
     }
+    @media (max-width:763px) {   
+        margin-left: 6%;
+        width: 88%;
+    }
 }
 .row{
     display: flex;
@@ -145,6 +149,7 @@ body{
 }
 
 .about{
+    margin-bottom: 100px;
     @media (max-width:408px) {
         background: url(../img/about_img.png);
         padding-top: 10px;
@@ -187,7 +192,7 @@ body{
             width: 200px;
         }
         @media (max-width:408px) {
-            width: 270px;
+            width: 200px;
             font-size: 10px;
             color: #b5af96;
             font-weight: 700;
@@ -230,6 +235,54 @@ body{
         margin-left: 7px;
         @media (max-width:763px) {
             width: 10px;
+        }
+    }
+}
+
+.advantages{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    h1{
+        color: #E6B939;
+        font-size: 30px;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    background-color: #FAFAFC;
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:408px) {   
+            display: block;
+        }
+    }
+    &_block1{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width:408px) {   
+            display: block;
+        }
+    }
+    &_box{
+        height: 275px;
+        text-align: center;
+        max-width: 373px;
+        &-title{
+            font-size: 20px;
+            line-height: 24px;
+            color: #575445;
+        }
+        &-text{
+            @media (max-width:408px) {   
+                text-align: center;
+                max-width: 350px;
+            }
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            max-width: 290px;
         }
     }
 }
