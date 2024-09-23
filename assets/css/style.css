@@ -310,4 +310,84 @@ body.lock {
     text-align: center;
     max-width: 350px;
   }
+}
+
+.katalog {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.katalog_title {
+  color: #E6B939;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.katalog_title2 {
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 85px;
+}
+.katalog_title_block {
+  text-align: center;
+}
+.katalog_block {
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.katalog_box {
+  border-radius: 10px;
+  height: 489px;
+  width: 379px;
+}
+@media (max-width: 408px) {
+  .katalog_box {
+    height: 300px;
+  }
+}
+.katalog_box_1 {
+  background: url(../img/Accessories.png) no-repeat center center/cover;
+}
+.katalog_box_2 {
+  background: url(../img/outfit.png) no-repeat center center/cover;
+}
+.katalog_box_3 {
+  background: url(../img/alp.png) no-repeat center center/cover;
+}
+.katalog_box_4 {
+  background: url(../img/head_wear.png) no-repeat center center/cover;
+}
+.katalog_box_5 {
+  background: url(../img/Hiking.png) no-repeat center center/cover;
+}
+.katalog_box_6 {
+  background: url(../img/jackets.png) no-repeat center center/cover;
+}
+.katalog_box_text {
+  font-size: 20px;
+  line-height: 22px;
+}
+@media (max-width: 408px) {
+  .katalog_box_text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+.katalog_box_title {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 34px;
+}
+@media (max-width: 408px) {
+  .katalog_box_title {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.katalog_link {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

@@ -286,3 +286,77 @@ body{
         }
     }
 }
+
+.katalog{
+    &_title{
+        color: #E6B939;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    &_title2{
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 85px;
+    }
+    padding-top: 100px;
+    padding-bottom: 150px;
+    &_title_block{
+        text-align: center;
+    }
+    &_block{
+        display: flex;
+        text-align: center;
+        gap: 15px;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+    &_box{
+        border-radius: 10px;
+        height: 489px;
+        width: 379px;
+        @media (max-width:408px) {   
+            height: 300px;
+        }
+        &_1{
+            background: url(../img/Accessories.png) no-repeat center center / cover;
+        }
+        &_2{
+            background: url(../img/outfit.png)no-repeat center center / cover;
+        }
+        &_3{
+            background: url(../img/alp.png)no-repeat center center / cover;
+        }
+        &_4{
+            background: url(../img/head_wear.png)no-repeat center center / cover;
+        }
+        &_5{
+            background: url(../img/Hiking.png)no-repeat center center / cover;
+        }
+        &_6{
+            background: url(../img/jackets.png)no-repeat center center / cover;
+        }
+        &_text{
+            font-size: 20px;
+            line-height: 22px;
+            @media (max-width:408px) {   
+            font-size: 10px;
+            line-height: 12px;
+            }
+        }
+        &_title{
+            font-size: 25px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            line-height: 34px;
+            @media (max-width:408px) {   
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    }
+    &_link{
+        text-align: center;
+    }
+}
